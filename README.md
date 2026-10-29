@@ -41,9 +41,3 @@ Topic modeling of Missouri S&T Electrical and Computer Engineering course descri
    python bertopicModel.py
    python stackedModel.py
    ```
-
-## Notes
-
-- The spaCy English model (`en_core_web_sm`) is downloaded separately because spaCy keeps language models outside the main package.
-- In VS Code, select the interpreter at `.venv\Scripts\python.exe` (or the equivalent on your OS) via **Python: Select Interpreter** so the editor and terminal use the virtual environment.
-- Curriculum seeds in the stacked model are used only for post-hoc labeling; both NMF and BERTopic fit unsupervised.
